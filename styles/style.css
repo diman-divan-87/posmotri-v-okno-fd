@@ -149,7 +149,7 @@ ol {
 
 .search-form__label {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding: 1px;
   margin-bottom: 1px;
   cursor: pointer;
@@ -195,6 +195,7 @@ ol {
 }
 
 .search-form__label:focus-within {
+  outline-offset: 0px;
   outline: 1px solid #fff;
 }
 
