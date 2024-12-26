@@ -149,7 +149,7 @@ ol {
 
 .search-form__label {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding: 1px;
   margin-bottom: 1px;
   cursor: pointer;
@@ -302,6 +302,10 @@ ol {
   align-items: start;
   grid-template-columns: 196px 194px;
   height: 103px;
+}
+
+.content__video-card-description-container {
+  padding-left: 2px;
 }
 
 .content__video-card-description {
